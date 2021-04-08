@@ -55,7 +55,7 @@ def generate_password(pass_length):
 
 root = tk.Tk()
 root.title("Password generator")
-root.iconbitmap('./hacker.ico')
+# root.iconbitmap('./hacker.ico')
 
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
